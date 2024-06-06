@@ -5,7 +5,7 @@ import { Button } from '../components/Button';
 
 import './Home.scss';
 
-function Home() {
+export const Home = () => {
   return (
     <div className="home">
 
@@ -193,5 +193,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;
