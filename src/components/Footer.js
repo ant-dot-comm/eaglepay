@@ -38,7 +38,7 @@ export const Footer = () => {
           <div className="max-md:flex max-md:flex-col max-md:w-fit max-md:mx-auto">
             <a href="/"><Logo height={40}  className="mb-32"/></a>
             <div className="flex items-center gap-16 md:ml-64 mb-16"><FaPhone className="text-emerald-40" size={24} />123-123-1234</div>
-            <div className="flex items-center gap-16 md:ml-64 mb-16"><FaMapPin className="text-emerald-40" size={24} />Address 1234, AB 12345</div>
+            <div className="flex items-center gap-16 md:ml-64 mb-16"><FaMapPin className="text-emerald-40" size={24} />Address 12345, AB 12345</div>
             <div className="flex items-center gap-16 md:ml-64"><FaEnvelope className="text-emerald-40" size={24} />info@eaglepay.com</div>
           </div>
           <hr className="border-t border-neutral-400 my-32"  />

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react';
 
 import { Header, Footer } from './components';
 import { Landing } from './pages/Landing';
@@ -7,13 +7,11 @@ import './App.scss';
 
 function App() {
   return (
-    <Router>
+    <div>
       <Header />
-      <Routes>
-        <Route exact path="/" element={<Landing />} />
-      </Routes>
+      <Landing />
       <Footer />
-    </Router>
+    </div>
   );
 }
 
