@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.378184a4.css",
-    "main.js": "/static/js/main.1b151baa.js",
-    "static/js/453.b3a65ddf.chunk.js": "/static/js/453.b3a65ddf.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.1fd45cbe591608b532d819fa0aba7464.svg",
-    "static/media/decor-lines.svg": "/static/media/decor-lines.79cf1231bdcaf347af19b8ae6d9f707f.svg",
-    "index.html": "/index.html",
-    "static/media/decor-lines-2.svg": "/static/media/decor-lines-2.3eed3e95310453ff9f1369c5fb135ca1.svg",
-    "main.378184a4.css.map": "/static/css/main.378184a4.css.map",
-    "main.1b151baa.js.map": "/static/js/main.1b151baa.js.map",
-    "453.b3a65ddf.chunk.js.map": "/static/js/453.b3a65ddf.chunk.js.map"
+    "main.css": "/eaglepay/static/css/main.378184a4.css",
+    "main.js": "/eaglepay/static/js/main.a53f7af3.js",
+    "static/js/453.b3a65ddf.chunk.js": "/eaglepay/static/js/453.b3a65ddf.chunk.js",
+    "static/media/logo.svg": "/eaglepay/static/media/logo.1fd45cbe591608b532d819fa0aba7464.svg",
+    "static/media/decor-lines.svg": "/eaglepay/static/media/decor-lines.79cf1231bdcaf347af19b8ae6d9f707f.svg",
+    "index.html": "/eaglepay/index.html",
+    "static/media/decor-lines-2.svg": "/eaglepay/static/media/decor-lines-2.3eed3e95310453ff9f1369c5fb135ca1.svg",
+    "main.378184a4.css.map": "/eaglepay/static/css/main.378184a4.css.map",
+    "main.a53f7af3.js.map": "/eaglepay/static/js/main.a53f7af3.js.map",
+    "453.b3a65ddf.chunk.js.map": "/eaglepay/static/js/453.b3a65ddf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.378184a4.css",
-    "static/js/main.1b151baa.js"
+    "static/js/main.a53f7af3.js"
   ]
 }
