@@ -3,9 +3,7 @@ import React from 'react';
 import { ReactComponent as Lines} from '../components/visuals/decor-lines.svg';
 import { Button } from '../components/Button';
 
-import './Home.scss';
-
-export const Home = () => {
+export const Landing = () => {
   return (
     <div className="home">
 
