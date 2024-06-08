@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Header, Footer } from './components';
-import { Landing } from './pages/Landing';
+import { Header, Footer2 } from './components';
+import { Landing } from './pages/Landing2';
 
 import './App.scss';
 
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header />
       <Landing />
-      <Footer />
+      <Footer2 />
     </div>
   );
 }
