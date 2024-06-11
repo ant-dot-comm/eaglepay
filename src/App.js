@@ -25,7 +25,7 @@ function App() {
         </header>
         
         <Routes>
-          <Route exact path="/" element={<Landing />} />
+          <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
