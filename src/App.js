@@ -15,7 +15,7 @@ function App() {
       <div>
         <header className="global-container fixed w-full top-8 left-1/2 -translate-x-1/2 z-50">
           <nav className="flex justify-between items-center p-16 rounded-lg shadow-[0_2px_8px_0_rgba(0,0,0,0.1)] backdrop-blur-md bg-neutral-50/50">
-              <Link to="/"><Logo height={40}/></Link>
+              <Link to="/eaglepay"><Logo height={40}/></Link>
               <div className="flex items-center gap-16">
                 <Link to="/about">About</Link>
                 <Button as="a" href="https://www.truckparknation.com/login" target='_blank' rel="noreferrer" color="hollow">Sign In</Button>
@@ -25,8 +25,8 @@ function App() {
         </header>
         
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/eaglepay" element={<Landing />} />
+          <Route path="/eaglepay/about" element={<About />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
         <Footer2 />
