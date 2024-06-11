@@ -23,9 +23,10 @@ export const Footer2 = () => {
           <div className="flex max-md:flex-col md:justify-between">
             <a href="/"><Logo height={40}  className="mb-32 text-white"/></a>
             <div>
-              <div className="flex items-center gap-16 mb-16 text-white"><FaPhone className="text-emerald-30" size={24} />123-123-1234</div>
-              <div className="flex items-center gap-16 mb-16 text-white"><FaMapPin className="text-emerald-30" size={24} />Address 12345, AB 12345</div>
-              <div className="flex items-center gap-16 text-white"><FaEnvelope className="text-emerald-30" size={24} />info@eaglepay.com</div>
+              <div className="flex items-center gap-16 mb-16 text-white"><FaPhone className="text-emerald-30" size={24} />(917)407-9957</div>
+              <div className="flex items-center gap-16 mb-16 text-white"><FaMapPin className="text-emerald-30" size={24} />281 Summerhill rd, east Brunswick, nj 08816
+Info@eaglepay.co</div>
+              <div className="flex items-center gap-16 text-white"><FaEnvelope className="text-emerald-30" size={24} />Info@eaglepay.co</div>
             </div>
           </div>
 

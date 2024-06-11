@@ -36,7 +36,7 @@ const audience = (img, title, text, bgColor) => {
       )}
     >
       <img alt="" className="" src={`${process.env.PUBLIC_URL + "/images/" + img + ".png"}`}/>
-      <div className="px-32 pb-32">
+      <div className="px-32 pb-32 -mt-32">
         <p className="text-24">{title}</p>
         <p>{text}</p>
       </div>
@@ -51,8 +51,8 @@ export const Landing = () => {
       {/* Hero Section */}
       <div className="global-container flex max-md:flex-col md:flex-row items-center relative -mb-[4rem]">
         <div>
-          <h1 className="heading-display">Cloud based payment solution for <span className="text-emerald-40">truck operators</span></h1>
-          <Button color="dark">Request a Demo Today</Button>
+          <h1 className="heading-display">Cloud based payment solution for <span className="text-emerald-40">parking lot operators</span></h1>
+          <Button color="dark" className="max-sm:mb-32 max-sm:my-16 max-sm:w-full">Request a Demo Today</Button>
         </div>
         <img alt="" src={`${process.env.PUBLIC_URL + "/images/computersFiller.png"}`} width={600}/>
         <img alt="" className="absolute right-1 bottom-1 w-full -z-40 max-md:hidden" src={`${process.env.PUBLIC_URL + "/images/track1.png"}`} />
@@ -69,7 +69,7 @@ export const Landing = () => {
       <p className="text-24 text-center mt-64 mb-32">We deliver results</p>
       <div className="global-container flex max-md:flex-col md:flex-row gap-16 items-center mb-96">
         {cta("750,000", "Transactions on the platform")}
-        {cta("1000+", "Operators")}
+        {cta("1000+", "Drivers using EaglePay")}
         {cta("24/7", "US Based Customer support")}
       </div>
 
@@ -102,7 +102,7 @@ export const Landing = () => {
       <div className='global-container rounded-xlarge flex max-md:flex-col md:flex-row items-center !p-32 bg-emerald-50 relative z-0 overflow-hidden max-md:!mx-8'>
         <img alt="" className="md:w-1/2" src={`${process.env.PUBLIC_URL + "/images/computersFiller.png"}`} />
         <div className="md:w-1/2 md:p-32 max-md:pt-32">
-          <h3 className="heading-1 text-white">Cloud based payment solution for <span className="text-emerald-20">truck operators</span></h3>
+          <h3 className="heading-1 text-white">Cloud based payment solution for <span className="text-emerald-20">parking lot operators</span></h3>
           <p className="text-white">Ditch the spreadsheets and paper-based processes and upgrade to the best!</p>
         </div>
         <img alt="" className="absolute left-32 top-1 h-full -z-10" src={`${process.env.PUBLIC_URL + "/images/track3.png"}`} />

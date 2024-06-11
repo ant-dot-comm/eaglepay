@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-export const Button = ({ as = 'button', to, href, children, className = '', ...props }) => {
+export const Button = ({ as = 'button', to, href, children, className = '', full, ...props }) => {
   const Component = as === 'link' ? Link : as === 'a' ? 'a' : 'button';
 
   return (
@@ -14,6 +14,7 @@ export const Button = ({ as = 'button', to, href, children, className = '', ...p
         'bg-gradient-to-b from-emerald-20 to-emerald-10 text-emerald-50': props.color === 'light',
         'bg-gradient-to-b from-emerald-50 to-emerald-40 text-emerald-10': props.color === 'dark',
         'border border-emerald-50': props.color === 'hollow',
+        'w-full': full,
       
       })}
       {...props}
@@ -26,6 +27,7 @@ export const Button = ({ as = 'button', to, href, children, className = '', ...p
 Button.propTypes = {
   as: PropTypes.oneOf(['button', 'a', 'link']),
   to: PropTypes.string,
+  full: PropTypes.bool,
   href: PropTypes.string,
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
