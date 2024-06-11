@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/eaglepay/static/css/main.6b1c3aaa.css",
-    "main.js": "/eaglepay/static/js/main.cbb1968d.js",
+    "main.css": "/eaglepay/static/css/main.68a8a770.css",
+    "main.js": "/eaglepay/static/js/main.11f175f9.js",
     "static/js/453.b3a65ddf.chunk.js": "/eaglepay/static/js/453.b3a65ddf.chunk.js",
     "static/media/logo-custom.svg": "/eaglepay/static/media/logo-custom.022fdbb98ac95c30c641ce0a56dc54cc.svg",
     "static/media/logo.svg": "/eaglepay/static/media/logo.1fd45cbe591608b532d819fa0aba7464.svg",
     "static/media/decor-lines.svg": "/eaglepay/static/media/decor-lines.79cf1231bdcaf347af19b8ae6d9f707f.svg",
     "index.html": "/eaglepay/index.html",
     "static/media/decor-lines-2.svg": "/eaglepay/static/media/decor-lines-2.3eed3e95310453ff9f1369c5fb135ca1.svg",
-    "main.6b1c3aaa.css.map": "/eaglepay/static/css/main.6b1c3aaa.css.map",
-    "main.cbb1968d.js.map": "/eaglepay/static/js/main.cbb1968d.js.map",
+    "main.68a8a770.css.map": "/eaglepay/static/css/main.68a8a770.css.map",
+    "main.11f175f9.js.map": "/eaglepay/static/js/main.11f175f9.js.map",
     "453.b3a65ddf.chunk.js.map": "/eaglepay/static/js/453.b3a65ddf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b1c3aaa.css",
-    "static/js/main.cbb1968d.js"
+    "static/css/main.68a8a770.css",
+    "static/js/main.11f175f9.js"
   ]
 }
