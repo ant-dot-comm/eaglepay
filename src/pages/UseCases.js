@@ -1,13 +1,10 @@
 import React from 'react';
 
 import { Button } from '../components/Button';
-import classNames from 'classnames';
 
-
-
-export const About = () => {
+export const UseCases = () => {
   return (
-    <div className="home">
+    <div className="cases">
 
       <div className="global-container">
         <h1 className="heading-display">About</h1>
