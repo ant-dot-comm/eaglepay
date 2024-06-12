@@ -18,6 +18,7 @@ module.exports = {
       xs: '1rem',
       sm: '1.2rem',
       base: '1.6rem',
+      lg: '1.8rem',
       xl: '2rem',
       '14': '1.4rem',
       '18': '1.8rem',

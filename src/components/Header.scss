@@ -1,0 +1,40 @@
+.header-overlay {
+    @media (max-width: 640px) { 
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        background-color: rgba(0,0,0,0.5);
+    }
+    
+
+    &__content {
+        display: flex;
+        gap: 1.6rem;
+        align-items: center;
+
+        @media (max-width: 640px) { 
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+
+            flex-direction: column;
+            padding: 6.4rem 1.6rem 1.6rem;
+            border-radius: 3.2rem;
+            box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+            background-color: #E5E1DB;
+            margin: 1.6rem;
+
+            .button {
+                width: 100%;
+                padding-bottom: 1rem;
+                padding-top: 1rem;
+                border-radius: 1.4rem;
+            }
+        }
+    }
+}
