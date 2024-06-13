@@ -837,6 +837,14 @@ video {
   border-radius: 3.2rem;
 }
 
+.rounded-\[1rem\] {
+  border-radius: 1rem;
+}
+
+.rounded-\[\.8rem\] {
+  border-radius: .8rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1021,6 +1029,31 @@ video {
 .py-8 {
   padding-top: .8rem;
   padding-bottom: .8rem;
+}
+
+.px-12 {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.py-10 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-12 {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.py-32 {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.py-40 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pb-32 {

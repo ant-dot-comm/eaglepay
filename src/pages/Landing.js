@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { ReactComponent as Lines} from '../components/visuals/decor-lines.svg';
 import { Button } from '../components/Button';
 
 export const Landing = () => {
@@ -13,8 +12,6 @@ export const Landing = () => {
           <h1 className="heading-display">Parking Solutions for the Modern Trucking Industry</h1>
           <Button color="dark">Request a Demo Today</Button>
         </div>
-        <Lines className="text-neutral-100 absolute -top-16 right-1 -z-10"/>
-        <Lines className="text-neutral-100 absolute bottom-64 left-1/2 -translate-x-1/2 -z-10"/>
         <img alt="" src={`${process.env.PUBLIC_URL + "/images/hero.png"}`} width={600}/>
       </div>
 
@@ -69,9 +66,6 @@ export const Landing = () => {
           </div>
 
           <img alt="" src={`${process.env.PUBLIC_URL + "/images/sample.png"}`} />
-
-          <Lines className="text-blue-30 absolute -top-64 left-1 -z-10"/>
-          <Lines className="text-blue-40 absolute -bottom-64 right-1 -z-10"/>
         </div>
       </div>
 

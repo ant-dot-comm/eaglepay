@@ -41,6 +41,7 @@ export const Header = () => {
 
     return (
         <div className="relative">
+            {/* Desktop */}
             <header className="header global-container fixed w-full top-8 left-1/2 -translate-x-1/2 z-50">
                 <nav
                     className={classNames(
@@ -52,7 +53,7 @@ export const Header = () => {
                         <Logo height={40} />
                     </Link>
 
-                    <div className="hidden sm:flex items-center gap-16 text-sm">
+                    <div className="hidden sm:flex items-center gap-16">
                         {links}
                     </div>
                     
@@ -65,6 +66,8 @@ export const Header = () => {
                     </button>
                 </nav>
             </header>
+            
+            {/* Mobile */}
             <div
                 className={classNames(
                     {'max-sm:hidden sm:hidden' : !menuOpen},

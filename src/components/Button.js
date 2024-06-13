@@ -14,8 +14,8 @@ export const Button = ({ as = 'button', to, href, children, className = '', full
       'bg-gradient-to-b from-emerald-50 to-emerald-40 text-emerald-10 border border-transparent': props.color === 'dark',
       'border border-emerald-50': props.color === 'hollow',
       'w-full': full,
-      'px-8 py-4 rounded-sm': size === 'sm',
-      'px-16 py-8 rounded-md': size === 'md',
+      'px-16 py-8 rounded-[.8rem]': size === 'sm',
+      'px-16 py-12 rounded-md': size === 'md',
     },
     className
   );

@@ -3,7 +3,6 @@ import { FaPhone, FaMapPin, FaEnvelope, FaFacebook, FaTwitter, FaInstagram } fro
 
 import { Button } from './Button';
 import { ReactComponent as Logo} from './visuals/logo-custom.svg';
-import { ReactComponent as Lines2} from './visuals/decor-lines-2.svg';
 
 export const Footer2 = () => {
   return (

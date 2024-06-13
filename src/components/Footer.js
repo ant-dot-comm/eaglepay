@@ -3,8 +3,6 @@ import { FaPhone, FaMapPin, FaEnvelope, FaFacebook, FaTwitter, FaInstagram } fro
 
 import { Button } from './Button';
 import { ReactComponent as Logo} from './visuals/logo.svg';
-import { ReactComponent as Lines} from './visuals/decor-lines.svg';
-import { ReactComponent as Lines2} from './visuals/decor-lines-2.svg';
 
 export const Footer = () => {
   return (
@@ -28,9 +26,6 @@ export const Footer = () => {
           </div>
 
           <img alt="" src={`${process.env.PUBLIC_URL + "/images/app.png"}`} className="w-[30rem] md:-my-[9.6rem]" />
-
-          <Lines className="text-emerald-50 absolute -top-64 right-1 -z-10"/>
-          <Lines className="text-emerald-40 absolute -bottom-64 left-1 -z-10"/>
         </div>
       </div>
       <footer className="bg-gradient-to-b from-neutral-300 to-white py-64 relative -z-30">
@@ -50,7 +45,6 @@ export const Footer = () => {
               <a href="/" target="_blank" rel="noreferrer"><FaTwitter size={24} className="text-emerald-40" /></a>
             </div>
           </div>
-          <Lines2 className="text-neutral-200 absolute top-1 right-1 -z-10"/>
         </div>
       </footer>
     </>
