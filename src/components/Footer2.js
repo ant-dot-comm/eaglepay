@@ -11,7 +11,14 @@ export const Footer2 = () => {
       <div className="global-container rounded-xlarge bg-emerald-40 max-md:!mx-8 relative z-10 !p-64 overflow-hidden">
         <div>
           <p className="heading-1 leading-none text-white mb-16">Schedule a <br/> demo today</p>
-          <Button color="light">Request a demo</Button>
+          <Button
+              as="a"
+              className="max-sm:mb-32 max-sm:my-16 max-sm:w-full"
+              href="https://calendly.com/park-nation/introduction-to-eaglepay-platform"
+              color="light"
+              >
+              Book a Demo
+          </Button>
         </div>
 
         <img alt="" src={`${process.env.PUBLIC_URL + "/images/track4.png"}`} className="absolute -right-1 -top-1 -z-10" style={{"height": "101%"}} />

@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { Button } from '../components/Button';
+import { HashLink as Link } from 'react-router-hash-link';
+
 import classNames from 'classnames';
 
 const cta = (number, text) => {
@@ -25,9 +27,10 @@ const feature = (img, text) => {
 
 const audience = (img, title, text, bgColor) => {
   return (
-    <div 
+    <Link 
+      to={`/eaglepay/use-cases#${img}`}
       className={classNames(
-        "md:w-1/3 rounded-large max-w-[40rem] max-md:mx-auto",
+        "md:w-1/3 rounded-large max-w-[40rem] max-md:mx-auto hover:shadow-lg hover:outline-white/80 hover:outline hover:outline-8",
         {
           "bg-emerald-50 text-white": bgColor === "emerald50",
           "bg-emerald-40 text-white": bgColor === "emerald40",
@@ -40,7 +43,7 @@ const audience = (img, title, text, bgColor) => {
         <p className="text-24">{title}</p>
         <p>{text}</p>
       </div>
-    </div>
+    </Link>
   );
 }
 
@@ -52,7 +55,17 @@ export const Landing = () => {
       <div className="global-container flex max-md:flex-col md:flex-row items-center relative -mb-[4rem]">
         <div>
           <h1 className="heading-display">Cloud based payment solution for <span className="text-emerald-40">parking lot operators</span></h1>
-          <Button color="dark" className="max-sm:mb-32 max-sm:my-16 max-sm:w-full">Request a Demo Today</Button>
+          <Button
+            as="a"
+            className="max-sm:mb-32 max-sm:my-16 max-sm:w-full !text-left"
+            href="https://calendly.com/park-nation/introduction-to-eaglepay-platform"
+            target="_blank"
+            rel="noreferrer"
+            color="dark"
+            size="sm"
+            >
+            Book a Demo
+          </Button>
         </div>
         <img alt="" src={`${process.env.PUBLIC_URL + "/images/computersFiller.png"}`} width={600}/>
         <img alt="" className="absolute right-1 bottom-1 w-full -z-40 max-md:hidden" src={`${process.env.PUBLIC_URL + "/images/track1.png"}`} />
@@ -60,9 +73,9 @@ export const Landing = () => {
 
       {/* Audience Section */}
       <div className="global-container flex max-md:flex-col md:flex-row gap-16 pt-[9.6rem]">
-        {audience("audience1", "Truck Parking Lots", "Our secure, completely illuminated locations can be accessed remotely or by pin code and feature state-of-the-art 24/7 monitoring. If you are a truck driver, operator or have a commercial fleet, contact us to find out how we can serve you.", "emerald50")}
-        {audience("audience2", "Boat & Marinas", "Swap out-dated booking processes for EaglePay’s simple, transparent parking management system, guaranteeing better experiences for visitors and businesses.", "emerald30")}
-        {audience("audience3", "RV & Campers", "EaglePay is an all-in-one storage software solution designed to help outdoor storage yard owners streamline their processes and manage their tenants all in one dashboard.", "emerald40")}
+        {audience("trucking", "Truck Parking Lots", "Our secure, completely illuminated locations can be accessed remotely or by pin code and feature state-of-the-art 24/7 monitoring. If you are a truck driver, operator or have a commercial fleet, contact us to find out how we can serve you.", "emerald50")}
+        {audience("boating", "Boat & Marinas", "Swap out-dated booking processes for EaglePay’s simple, transparent parking management system, guaranteeing better experiences for visitors and businesses.", "emerald30")}
+        {audience("camping", "RV & Campers", "EaglePay is an all-in-one storage software solution designed to help outdoor storage yard owners streamline their processes and manage their tenants all in one dashboard.", "emerald40")}
       </div>
 
       {/* Trust Section */}

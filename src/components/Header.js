@@ -17,10 +17,11 @@ export const Header = () => {
             <Link to="/eaglepay/capabilities" onClick={() => setMenuOpen(false)}>Capabilities</Link>
             <Link to="/eaglepay/use-cases" onClick={() => setMenuOpen(false)}>UseCases</Link>
             <Button
-                as="link"
-                to="/eaglepay/contact"
+                as="a"
+                href="https://calendly.com/park-nation/introduction-to-eaglepay-platform"
+                target="_blank"
+                rel="noreferrer"
                 color="dark"
-                onClick={() => setMenuOpen(false)}
                 size="sm"
                 >
                 Book a Demo
@@ -60,7 +61,7 @@ export const Header = () => {
                     <button
                         onClick={() => setMenuOpen(!menuOpen)}
                         type="button"
-                        class="block text-black focus:outline-none sm:hidden p-16"
+                        className="block text-black focus:outline-none sm:hidden p-16"
                     >
                         <FaBars size={24} />
                     </button>
@@ -88,7 +89,7 @@ export const Header = () => {
                     <button
                         onClick={() => setMenuOpen(!menuOpen)}
                         type="button"
-                        class="block text-black focus:outline-none sm:hidden p-16 absolute top-1 right-1"
+                        className="block text-black focus:outline-none sm:hidden p-16 absolute top-1 right-1"
                     >
                         <AiOutlineClose size={24} />
                     </button>
